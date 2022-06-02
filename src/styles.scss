@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --side-bar: hsl(52, 76%, 84%);
+  --header: hsl(92, 53%, 81%);
+  --footer: hsl(92, 53%, 81%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
